@@ -196,7 +196,7 @@ EOF
   sudo systemctl start containerd kubelet kube-proxy
 ```
 
-## Configure CNI Networking
+## Configure CNI Networking (NOT DONE)
 
  TO REVIEW because i don have idea of what is going on
 
@@ -223,4 +223,3 @@ cat <<EOF | sudo tee /etc/cni/net.d/10-bridge.conf
 }
 EOF
 ```
-
